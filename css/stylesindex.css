@@ -1,1 +1,34 @@
+html,body {
+  /* background: url("../images/pat.png"); */
+  background: #fff;
+}
 
+.top {
+	background:url("../images/IMG_3313_cropped.jpg");
+	height:75vh;
+	background-size: cover;
+	background-position: center bottom;
+	position:relative;
+	min-height:400px;
+}
+.welcome {
+	opacity:0;
+	position:absolute;
+	top:50%;
+	transform: translateY(-50%);
+	background:rgba(0,0,0,0.5);
+	padding:30px 60px;
+	width:100%;
+	color:#fff;
+}
+.top-header {
+	font-weight:bold;
+	text-transform: uppercase;
+}
+.top-margin {
+  margin-top:56px
+}
+
+.desc {
+  font-size:20px
+}
